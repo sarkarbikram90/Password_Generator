@@ -98,7 +98,7 @@ def estimate_crack_time(password):
 # Main app configuration
 st.set_page_config(page_title="Password Generator", page_icon="🔐", layout="wide")
 
-st.title("🔐 Generator Password & Check Strength")
+st.title("🔐 Generate Password & Check Strength")
 
 tab1, tab2 = st.tabs(["🎲 Generate Your Password", "🔍 Check Your Password Strength"])
 
