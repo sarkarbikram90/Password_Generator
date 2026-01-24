@@ -5,13 +5,13 @@ import re
 
 st.set_page_config(page_title="Password Generator", page_icon="🔐", layout="wide")
 
-st.title("🔐 Password Generator & Strength Checker")
+st.title("🔐 Generator Password & Check Strength")
 
-tab1, tab2 = st.tabs(["🎲 Generate Password", "🔍 Check Password Strength"])
+tab1, tab2 = st.tabs(["🎲 Generate Your Password", "🔍 Check Your Password Strength"])
 
 # Password Generator Tab
 with tab1:
-    st.header("Generate Secure Password")
+    st.header("Generate Your Secure Password")
     
     col1, col2 = st.columns([2, 1])
     
