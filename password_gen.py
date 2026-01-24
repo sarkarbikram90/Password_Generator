@@ -106,7 +106,7 @@ tab1, tab2 = st.tabs(["🎲 Generate Your Password", "🔍 Check Your Password S
 with tab1:
     st.header("Generate Your Secure Password")
     
-    length = st.slider("Password Length", min_value=8, max_value=25, value=16)
+    length = st.slider("Password Length", min_value=8, max_value=25, value=8)
     
     st.write("**Include:**")
     use_uppercase = st.checkbox("Uppercase letters (A-Z)", value=True)
