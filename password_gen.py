@@ -9,7 +9,7 @@ def check_your_password_strength(password):
     feedback = []
     
     # Length check with bonus for longer passwords
-    if len(password) >= 8:
+    if len(password) >= 15:
         score += 1
         feedback.append(f"{len(password)} characters")
     
@@ -208,4 +208,4 @@ with tab2:
             estimate = estimate_crack_time(password_input)
             st.info(f"⏱️ Estimated time to crack: {estimate}")
 
-st.caption("🔒 Your passwords are generated locally and never sent to any server.")
+st.caption("🔒 Private by design & 100% Stateless:Passwords are generated locally, never stored in a database, and never sent to a server. No data leakage. No password exposure.")
