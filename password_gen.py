@@ -208,4 +208,4 @@ with tab2:
             estimate = estimate_crack_time(password_input)
             st.info(f"⏱️ Estimated time to crack: {estimate}")
 
-st.caption("🔒 Private by design & 100% Stateless:Passwords are generated locally, never stored in a database, and never sent to a server. No data leakage. No password exposure.")
+st.caption("🔒 Private by design & 100% Stateless: Passwords are generated locally, never stored in a database, and never sent to a server. No data leakage. No password exposure.")
